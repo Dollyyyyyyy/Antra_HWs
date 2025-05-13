@@ -1,0 +1,98 @@
+1. What type would you choose for the following “numbers”?
+
+A person’s telephone number: string
+
+A person’s height: float or double
+
+A person’s age: byte or int
+
+A person’s gender: enum or string
+
+A person’s salary: decimal
+
+A book’s ISBN: string
+
+A book’s price: decimal
+
+A book’s shipping weight: float or double
+
+A country’s population: long
+
+The number of stars in the universe: BigInteger
+
+The number of employees in each of the small or medium businesses in the UK: int
+
+2. What are the differences between value type and reference type variables? What is boxing and unboxing?
+
+Value Types: Stored in stack, hold actual data. (e.g., int, bool)
+
+Reference Types: Stored in heap, hold references. (e.g., string, object)
+
+Boxing: Converting value type to object.
+
+Unboxing: Extracting value type from object.
+
+3. What is meant by the terms managed resource and unmanaged resource in .NET?
+
+Managed: Controlled by .NET CLR (e.g., string, List<>).
+
+Unmanaged: External resources (e.g., file handles, database connections).
+
+4. What’s the purpose of Garbage Collector in .NET?
+
+Automatically frees memory by removing unused objects to prevent memory leaks.
+
+
+
+Controlling Flow and Converting Types – Test Your Knowledge
+
+1. What happens when you divide an int variable by 0?
+
+Throws a DivideByZeroException.
+
+2. What happens when you divide a double variable by 0?
+
+Returns Infinity or NaN, no exception thrown.
+
+3. What happens when you overflow an int variable?
+
+Value wraps around (if unchecked) or throws OverflowException (if checked).
+
+What is the difference between x = y++; and x = ++y;?
+
+y++: Assigns first, then increments.
+
+++y: Increments first, then assigns.
+
+What is the difference between break, continue, and return in loops?
+
+break: Exits loop immediately.
+
+continue: Skips current iteration.
+
+return: Exits the method entirely.
+
+What are the three parts of a for statement and which are required?
+
+Initialization, Condition, Afterthought (increment/decrement).
+
+Only Condition is required.
+
+What is the difference between the = and == operators?
+
+=: Assignment operator.
+
+==: Equality comparison operator.
+
+Does the following statement compile? for ( ; true; ) ;
+
+Yes, it’s an infinite loop with an empty body.
+
+What does the underscore _ represent in a switch expression?
+
+Acts as a default case (catch-all).
+
+What interface must an object implement to be enumerated over using the foreach statement?
+
+IEnumerable.
+
